@@ -37,7 +37,7 @@
         </ul>
     </nav>
 </div>
-<div class="main-section">
+<div class="main-section" id="main-section">
     <svg class="mastercraft-logo" id="logo" width="56" height="56" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fill-rule="evenodd">
             <circle fill="#000" cx="28" cy="28" r="28"/>
@@ -52,7 +52,7 @@
     <h1 class=" text-black text-center pt-6 pb-05 font-weight-bold text-xl"> Mastercraft Bamboo Monitor Riser</h1>
     <p class="text-center text-gray"> A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
     <div class="d-flex justify-content-between p-7">
-        <button class="button font-weight-bold" onclick="backThisProject ()"> Back this project</button>
+        <button class="button font-weight-bold" onclick="backThisProject ()" > Back this project</button>
         <div class="bookmark  mb-6" onclick="bookMark ()">
             <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" id="gray-bookmark">
                 <g fill="none" fill-rule="evenodd">
@@ -66,11 +66,11 @@
                     <path fill="#ffffff" d="M23 19v18l5-5.058L33 37V19z"/>
                 </g>
             </svg>
-            <p class=' font-weight-bold mb-0 mt-3 pl-2 pl-8' id="bookmark-color"> Bookmark</p>
+            <p class=' font-weight-bold mb-0 mt-3 pl-2 pl-8' id="bookmark-color" > Bookmark</p>
         </div>
     </div>
 </div>
-<div class="analysis-section p-10">
+<div class="analysis-section p-10" id="analysis-section">
     <div class=" d-flex flex-row pb-6">
         <div class="pr-6 pl-7">
             <h1 class="text-black text-xl font-weight-semibold">$89,914</h1>
@@ -118,7 +118,7 @@
                 <h1 class="text-xl">101</h1>
                 <p class="d-inline-block mb-0 mt-3 text-gray pl-1"> left</p>
             </div>
-            <button class="button font-weight-semibold">Select Reward</button>
+         <a href="#no-reward">   <button class="button font-weight-semibold" onclick="rewardClick()">Select Reward</button></a>
         </div>
     </div>
     <div class="shadow rounded-xxl border p-7 mt-5">
@@ -134,7 +134,7 @@
                 <h1 class="text-xl">64 </h1>
                 <p class="d-inline-block mb-0 mt-3 pl-1 text-gray">left</p>
             </div>
-            <button class="button font-weight-semibold"> Select Reward</button>
+           <a href="#bamboo-stand"> <button class="button font-weight-semibold" onclick="editionReward()" > Select Reward</button></a>
         </div>
     </div>
     <div class="shadow rounded-xxl border p-7 mt-5">
@@ -198,9 +198,9 @@
                 <p class="text-gray mt-2"> Enter your pledge</p>
                 <div class="d-flex">
                     <input type="number" min="25" value="25"
-                           class=" border-check rounded-full w-24 h-12 text-center font-weight-bold border-gray ">
+                           class=" border-check rounded-full w-24 h-12 text-center font-weight-bold border-focus border-gray ">
                     <p class="dollar">$</p>
-                    <button class="button w-24 font-weight-semibold"> Continue</button>
+                   <button class="button w-24 font-weight-semibold" onclick="complete()"> Continue</button>
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@
                     <input type="number" min="75" value="75"
                            class=" border-check rounded-full w-24 h-12 text-center font-weight-bold border-gray ">
                     <p class="dollar">$</p>
-                    <button class="button w-24 font-weight-semibold"> Continue</button>
+                    <button class="button w-24 font-weight-semibold" onclick="complete()"> Continue</button>
                 </div>
             </div>
         </div>
@@ -239,9 +239,9 @@
     </div>
     <div class="shadow border rounded p-7 mt-5 opacity-50">
         <div class="d-flex" onclick="mahoganySpecial()">
-            <input type="radio" class=" w-7 h-7" name="check" disabled>
+            <input type="radio" class=" w-7 h-7" name="check" disabled >
             <div class="d-flex ">
-                <label class="text-base  font-weight-bold pl-6 pointer text-black" > Mahogany Special Edition</label>
+                <label class="text-base  font-weight-bold pl-6 pointer text-black" >Mahogany Special Edition</label>
                 <p class="text-lightblue font-weight-semibold pl-14"> Pledge $200 or more</p>
             </div>
         </div>
@@ -272,13 +272,21 @@
     <!-- Selection modal end -->
 
     <!-- Success modal start -->
-    <div class="d-none">
-        Thanks for your support!
-        Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
-        an email once our campaign is completed.
-        Got it!
+<div class="got-it p-7 d-none" id="complete" >
+    <div class="d-flex flex-column mt-5" >
+        <svg class="mx-auto" width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+                <circle fill="#3CB3AB" cx="32" cy="32" r="32"/>
+                <path stroke="#FFF" stroke-width="5" d="M20 31.86L28.093 40 44 24"/>
+            </g>
+        </svg>
+      <h1 class="text-black text-center text-2xl font-weight-semibold mt-3" > Thanks for your support!</h1>
     </div>
+       <p class="text-center w-83 mx-auto mt-3"> Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
+        an email once our campaign is completed.</p>
+       <button class="button w-25 mt-5 font-weight-semibold ml-11" onclick="backOrignal()"> Got it!</button>
     <!-- Success modal end -->
+</div>
 </body>
 <script src="script.js"></script>
 </html>

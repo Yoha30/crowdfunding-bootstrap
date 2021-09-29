@@ -12,6 +12,8 @@ let blackeditionLeft = document.getElementById('blackedition-left');
 let secondSection = document.getElementById('second-section');
 let mahogany = document.getElementById('mahogany-selcted');
 let mahoganyLeft = document.getElementById('mahogany-left');
+let bamboo = document.getElementById('bamboo-stand');
+let edition = document.getElementById('black');
 function bookMark() {
     if (greenBookmark.classList.contains('d-none')) {
         grayBookmark.classList.add('d-none');
@@ -54,4 +56,32 @@ function mahoganySpecial(){
     mahogany.classList.remove('d-none');
     mahoganyLeft.classList.add('mahogany-left-opened');
 }
+function rewardClick() {
+    backThisProject();
+    bamboo.checked = true;
+    checked();
+}
+function editionReward() {
+    backThisProject();
+    edition.checked = true;
+    blackedition();
+}
+let completed = document.getElementById('complete');
+let mainSection = document.getElementById('main-section');
+let analysis = document.getElementById('analysis-section');
+function backOrignal() {
+    completed.classList.add('d-none');
+    backgroundImage.classList.remove('opacity-50');
+    aboutSection.classList.remove('opacity-50');
+    mainSection.classList.remove('opacity-50');
+    analysis.classList.remove('opacity-50');
+    logo.classList.remove('d-none');
+}
+function complete() {
+    completed.classList.remove('d-none');
+    backProject.classList.add('d-none');
+    mainSection.classList.add('opacity-50');
+    analysis.classList.add('opacity-50');
+    logo.classList.remove('d-none');
 
+}
