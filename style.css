@@ -1,0 +1,164 @@
+/*background*/
+.bg-image{
+    background-image: url("images/image-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 28vw;
+}
+.bg-gray-100{
+    background: #e1e1e1;
+}
+.primary{
+    background: #3CB4AB;
+
+}
+/**/
+/*font-weight*/
+.font-weight-bold{
+    font-weight: 800;
+}.font-weight-semibold{
+     font-weight: 700;
+ }
+ /**/
+/*padding*/
+.pr-10{
+    padding-right: 10rem;
+}
+.pr-6{
+    padding-right: 2rem;
+}
+.p-6{
+    padding: 3.5rem;
+}
+.p-7{
+    padding: 2rem;
+}
+.p-10{
+    padding: 4rem;
+}
+.pl-1{
+    padding-left: 0.5rem;
+}
+.pl-10{
+    padding-left: 10rem;
+}
+.pl-7{
+    padding-left: 2rem;
+}
+.pl-8{
+    padding-left: 0.3rem;
+}
+.pt-6{
+padding-top:3rem ;
+}
+.pb-05{
+    padding-bottom: 0.5rem;
+}
+.pb-6{
+    padding-bottom: 3rem;
+}
+.pb-7{
+    padding-bottom: 1rem;
+}
+.mb-6{
+    margin-bottom: 2rem;
+}
+/**/
+/*font-size*/
+.text-xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.text-md{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+/**/
+/*color*/
+.text-gray{
+    color: #6e6767;
+}
+.text-darkCyan{
+    color: #147B74FF;
+}
+/**/
+.list-style{
+    list-style: none;
+}
+.main-section{
+    background: white;
+    width: 43%;
+    position:absolute;
+    right: 34.5rem;
+    top: 24rem;
+    border-radius: 15px;
+}
+.button{
+    background:#3CB4ACFF ;
+    border: 0;
+    border-radius: 9999px;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+}
+.bookmark{
+    border-radius: 9999px;
+    background: lightgray;
+    color: #858585;
+    display: flex;
+    width: 11rem;
+    cursor: pointer;
+    user-select: none;
+
+}
+.mastercraft-logo{
+    position: absolute;
+    right: 24rem;
+    bottom: 16.5rem;
+}
+.analysis-section{
+    background: white;
+    width:43%;
+    position: absolute;
+    right: 34.5rem;
+    top: 43.5rem;
+    border-radius: 15px;
+    padding-bottom: 2rem;
+}
+.line{
+    border-right: 2px solid gray;
+    height: 4rem;
+    padding-right: 2rem;
+}
+.loading{
+    height: 0.625rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2rem;
+    display: flex;
+    border-radius: 0.25rem;
+    background: #e0e0e0;
+
+}
+.rounded-lg{
+    border-radius: 0.25rem;
+}
+.rounded-xxl{
+    border-radius: 0.75rem;
+}
+.about-section{
+    background: white;
+    width: 43%;
+    position: absolute;
+    right: 34.5rem;
+    top: 60.8rem;
+    border-radius: 15px;
+
+}
+.border{
+    border: 2px solid gray;
+}
