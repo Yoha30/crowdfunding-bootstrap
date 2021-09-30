@@ -198,7 +198,7 @@
     padding-bottom: 2rem;
 }
 
-.line {
+.line-large {
     border-right: 2px solid gray;
     height: 4rem;
     padding-right: 2rem;
@@ -227,7 +227,7 @@
     width: 43%;
     position: absolute;
     right: 34.5rem;
-    top: 60.8rem;
+    top: 60.5rem;
     border-radius: 15px;
 }
 
@@ -781,7 +781,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
-@media screen and (min-width: 300px ) and (max-width: 400px ) {
+@media screen and (min-width: 280px ) and (max-width: 450px ) {
     .bg-image {
         background-image: url("images/image-hero-mobile.jpg");
         background-repeat: no-repeat;
@@ -807,7 +807,7 @@ input[type=number]::-webkit-outer-spin-button {
         width: 18rem;
         position: absolute;
         right: 3rem;
-        top: 35rem;
+        top: 33rem;
         border-radius: 15px;
         padding-bottom: 2rem;
     }
@@ -817,22 +817,34 @@ input[type=number]::-webkit-outer-spin-button {
         width: 18rem;
         position: absolute;
         right: 3rem;
-        top: 64rem;
+        top: 56.5rem;
         border-radius: 15px;
     }
     .backthis-project {
         background: white;
-        width: 20rem;
+        width: 22rem;
         position: absolute;
-        right: 1.75rem;
-        top: 13rem;
+        right: 0.75rem;
+        top: 10rem;
         border-radius: 15px;
     }
-
+    .backthis-project-sections{
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .justify-center{
+        display: flex;
+        justify-content: center;
+        padding-right: 2rem;
+    }
     #mobile {
         display: flex;
         flex-direction: column !important;
         text-align: center;
+    }
+    .pl-14{
+        padding-left: 1rem;
     }
 
     .line {
@@ -842,17 +854,25 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 0;
         margin: auto;
     }
-    .pt-2{
+    .line-large {
+        border-right: 0 solid gray;
+    }
+    .pt-10{
         padding-top: 1rem;
+    }
+    .pt-12{
+        padding-top: 2rem;
+    }
+    .pb-10{
+        padding-bottom: 1rem;
     }
     .pl-7-sm {
         padding-left: 0;
     }
-
     .mastercraft-logo {
         position: absolute;
         right: 7rem;
-        bottom: 19.5rem;
+        bottom: 17.5rem;
     }
 
     .pl-10 {
@@ -871,7 +891,9 @@ input[type=number]::-webkit-outer-spin-button {
     .w-20 {
         width: 17rem;
     }
-
+    .w-22{
+        width: 20rem;
+    }
     #bookmark-color {
         display: none;
     }
@@ -886,7 +908,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .p-7 {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .button-sm {
@@ -948,5 +970,8 @@ input[type=number]::-webkit-outer-spin-button {
         color: white;
         height: 3rem;
         width: 8rem;
+    }
+    .w-39 {
+        width: 18rem;
     }
 }
