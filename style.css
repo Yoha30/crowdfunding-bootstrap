@@ -294,7 +294,7 @@
     width: 6rem;
 }
 
-.w-25 {
+.w-26 {
     width: 6.3rem;
 }
 
@@ -732,7 +732,7 @@ input[type=number]::-webkit-outer-spin-button {
         margin-right: 11rem;
     }
 
-    .w-25 {
+    .w-26 {
         width: 4rem;
     }
 
@@ -789,6 +789,23 @@ input[type=number]::-webkit-outer-spin-button {
         height: 80vw;
     }
 
+    .ml-11 {
+        margin: 0;
+    }
+
+    .got-it {
+        background: white;
+        width: 20rem;
+        position: absolute;
+        right: 1.75rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+
+    .got-it-button {
+        margin-left: 6.5rem;
+    }
+
     li {
         display: none;
     }
@@ -797,7 +814,7 @@ input[type=number]::-webkit-outer-spin-button {
         background: white;
         width: 18rem;
         position: absolute;
-        right: 3rem;
+        right: 2.8rem;
         top: 13rem;
         border-radius: 15px;
     }
@@ -806,7 +823,7 @@ input[type=number]::-webkit-outer-spin-button {
         background: white;
         width: 18rem;
         position: absolute;
-        right: 3rem;
+        right: 2.8rem;
         top: 33rem;
         border-radius: 15px;
         padding-bottom: 2rem;
@@ -816,10 +833,11 @@ input[type=number]::-webkit-outer-spin-button {
         background: white;
         width: 18rem;
         position: absolute;
-        right: 3rem;
+        right: 2.8rem;
         top: 56.5rem;
         border-radius: 15px;
     }
+
     .backthis-project {
         background: white;
         width: 22rem;
@@ -828,22 +846,26 @@ input[type=number]::-webkit-outer-spin-button {
         top: 10rem;
         border-radius: 15px;
     }
-    .backthis-project-sections{
+
+    .backthis-project-sections {
         width: 20rem;
         display: flex;
         flex-direction: column;
     }
-    .justify-center{
+
+    .justify-center {
         display: flex;
         justify-content: center;
         padding-right: 2rem;
     }
+
     #mobile {
         display: flex;
         flex-direction: column !important;
         text-align: center;
     }
-    .pl-14{
+
+    .pl-14 {
         padding-left: 1rem;
     }
 
@@ -854,21 +876,27 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 0;
         margin: auto;
     }
+
     .line-large {
         border-right: 0 solid gray;
     }
-    .pt-10{
+
+    .pt-10 {
         padding-top: 1rem;
     }
-    .pt-12{
+
+    .pt-12 {
         padding-top: 2rem;
     }
-    .pb-10{
+
+    .pb-10 {
         padding-bottom: 1rem;
     }
+
     .pl-7-sm {
         padding-left: 0;
     }
+
     .mastercraft-logo {
         position: absolute;
         right: 7rem;
@@ -891,9 +919,11 @@ input[type=number]::-webkit-outer-spin-button {
     .w-20 {
         width: 17rem;
     }
-    .w-22{
+
+    .w-22 {
         width: 20rem;
     }
+
     #bookmark-color {
         display: none;
     }
@@ -942,7 +972,8 @@ input[type=number]::-webkit-outer-spin-button {
     .w-12 {
         width: 14rem;
     }
-    .w-11{
+
+    .w-11 {
         width: 13rem;
     }
 
@@ -963,6 +994,7 @@ input[type=number]::-webkit-outer-spin-button {
         height: 3rem;
         width: 8rem;
     }
+
     .button-gray {
         background: darkgray;
         border: 0;
@@ -971,7 +1003,513 @@ input[type=number]::-webkit-outer-spin-button {
         height: 3rem;
         width: 8rem;
     }
+
     .w-39 {
         width: 18rem;
     }
+}
+
+@media screen and (min-width: 390px ) and (max-width: 393px ) {
+    .main-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 3.4rem;
+        top: 13rem;
+        border-radius: 15px;
+    }
+
+    .w-26 {
+        width: 7rem;
+    }
+
+    .got-it-button {
+        margin-left: 5.3rem;
+    }
+
+    .got-it {
+        background: white;
+        width: 20rem;
+        position: absolute;
+        right: 2.5rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+
+    .analysis-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 3.4rem;
+        top: 33rem;
+        border-radius: 15px;
+        padding-bottom: 2rem;
+    }
+
+    .about-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 3.4rem;
+        top: 57rem;
+        border-radius: 15px;
+    }
+
+    .backthis-project {
+        background: white;
+        width: 22rem;
+        position: absolute;
+        right: 1.3rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 360px ) {
+    .main-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 2.4rem;
+        top: 13rem;
+        border-radius: 15px;
+    }
+
+    .w-26 {
+        width: 7rem;
+    }
+
+    .got-it-button {
+        margin-left: 5.3rem;
+    }
+
+    .got-it {
+        background: white;
+        width: 20rem;
+        position: absolute;
+        right: 1.2rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+
+    .analysis-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 2.4rem;
+        top: 33rem;
+        border-radius: 15px;
+        padding-bottom: 2rem;
+    }
+
+    .backthis-project-sections {
+        width: 18rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .w-39 {
+        width: 16rem;
+    }
+
+    .about-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 2.4rem;
+        top: 57rem;
+        border-radius: 15px;
+    }
+
+    .backthis-project {
+        background: white;
+        width: 20rem;
+        position: absolute;
+        right: 1.3rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+
+    .w-83 {
+        width: 18rem;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 414px ) {
+    .main-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 4rem;
+        top: 13rem;
+        border-radius: 15px;
+    }
+
+    .w-26 {
+        width: 7rem;
+    }
+
+    .got-it-button {
+        margin-left: 5.3rem;
+    }
+
+    .got-it {
+        background: white;
+        width: 20rem;
+        position: absolute;
+        right: 3rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+
+    .w-83 {
+        width: 18rem;
+    }
+
+    .analysis-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 4rem;
+        top: 33rem;
+        border-radius: 15px;
+        padding-bottom: 2rem;
+    }
+
+    .backthis-project-sections {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .w-39 {
+        width: 16rem;
+    }
+
+    .about-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 4rem;
+        top: 57rem;
+        border-radius: 15px;
+    }
+
+    .backthis-project {
+        background: white;
+        width: 22rem;
+        position: absolute;
+        right: 2rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width: 290px) and (max-width: 320px ) {
+    .main-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 1rem;
+        top: 13rem;
+        border-radius: 15px;
+    }
+
+    .w-26 {
+        width: 7rem;
+    }
+
+    .got-it-button {
+        margin-left:4.4rem;
+    }
+
+    .got-it {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 1rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+
+    .w-83 {
+        width: 16rem;
+    }
+
+    .analysis-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 1rem;
+        top: 33rem;
+        border-radius: 15px;
+        padding-bottom: 2rem;
+    }
+
+    .backthis-project-sections {
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .w-39 {
+        width: 14.5rem;
+    }
+    .w-22{
+        width: 16rem;
+    }
+    .about-section {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 1rem;
+        top: 57rem;
+        border-radius: 15px;
+    }
+
+    .backthis-project {
+        background: white;
+        width: 18rem;
+        position: absolute;
+        right: 1rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+}
+@media screen and (min-width: 270px) and (max-width: 280px ) {
+    .main-section {
+        background: white;
+        width: 16rem;
+        position: absolute;
+        right: 0.75rem;
+        top: 13rem;
+        border-radius: 15px;
+    }
+    .mastercraft-logo {
+        position: absolute;
+        right: 6rem;
+        bottom: 18.75rem;
+    }
+    .w-20{
+        width: 15.5rem;
+    }
+    .w-26 {
+        width: 7rem;
+    }
+
+    .got-it-button {
+        margin-left:3.8rem;
+    }
+
+    .got-it {
+        background: white;
+        width: 16rem;
+        position: absolute;
+        right: 0.75rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+
+    .w-83 {
+        width: 15rem;
+    }
+
+    .analysis-section {
+        background: white;
+        width: 16rem;
+        position: absolute;
+        right: 0.75rem;
+        top: 34.5rem;
+        border-radius: 15px;
+        padding-bottom: 2rem;
+    }
+
+    .backthis-project-sections {
+        width: 14rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .w-39 {
+        width: 12rem;
+    }
+    .w-14{
+        width: 14.5rem;
+    }
+    .w-12{
+        width: 12rem;
+    }
+    .w-11{
+        width: 12rem;
+    }
+    .w-22{
+        width: 15rem;
+    }
+    .about-section {
+        background: white;
+        width: 16rem;
+        position: absolute;
+        right: 0.75rem;
+        top: 58.5rem;
+        border-radius: 15px;
+    }
+
+    .backthis-project {
+        background: white;
+        width: 16rem;
+        position: absolute;
+        right: 0.75rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+}
+@media (max-width: 1024px) {
+    .main-section {
+        background: white;
+        width: 43%;
+        position: absolute;
+        right: 18rem;
+        top: 13rem;
+        border-radius: 15px;
+    }
+
+    .mastercraft-logo {
+        position: absolute;
+        right: 12rem;
+        bottom: 20.5rem;
+    }
+
+    .analysis-section {
+        background: white;
+        width: 43%;
+        position: absolute;
+        right: 18rem;
+        top: 36rem;
+        border-radius: 15px;
+        padding-bottom: 2rem;
+    }
+
+    .about-section {
+        background: white;
+        width: 43%;
+        position: absolute;
+        right: 18rem;
+        top: 50.75rem;
+        border-radius: 15px;
+    }
+
+    .backthis-project {
+        background: white;
+        width: 43%;
+        position: absolute;
+        right: 18rem;
+        top: 15rem;
+        border-radius: 15px;
+    }
+
+    .bamboostand-left {
+        position: static;
+        right: 10.8rem;
+        top: 25.3rem;
+    }
+
+    .bamboostand-left-opened {
+        position: static;
+        right: 10.8rem;
+        top: 25.3rem;
+    }
+
+    .blackedition-left {
+        position: static;
+        top: 41.5rem;
+        right: 10.8rem;
+    }
+
+    .blackedition-left-opened {
+        position: static;
+        right: 10.8rem;
+        top: 49.6rem;
+    }
+
+    .mahogany-left {
+        position: static;
+        bottom: 11rem;
+        right: 10.8rem;
+    }
+
+    .mahogany-left-opened {
+        position: static;
+        bottom: 19.05rem;
+        right: 10.8rem;
+    }
+
+    .got-it {
+        background: white;
+        width: 29rem;
+        position: absolute;
+        right: 17rem;
+        top: 10rem;
+        border-radius: 15px;
+    }
+
+    .ml-11 {
+        margin-left: 10.5rem;
+        margin-right: 10.5rem;
+    }
+
+    .p-10 {
+        padding: 2rem;
+    }
+
+    .pl-7 {
+        padding-left: 1rem;
+    }
+
+    .pl-14 {
+        padding-left: 1rem;
+    }
+
+    .pl-10 {
+        padding-left: 7rem;
+    }
+
+    .pl-12 {
+        padding-left: 1rem;
+    }
+
+    .loading {
+        height: 0.625rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        display: flex;
+        border-radius: 0.25rem;
+        background: #e0e0e0;
+    }
+
+    .pr-6 {
+        padding-right: 1rem;
+    }
+
+    .p-6 {
+        padding: 2rem;
+    }
+
+    .w-39 {
+        width: 20rem;
+    }
+    .backthis-project-sections {
+        width: 23.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .justify-center {
+        display: flex;
+        justify-content: center;
+        padding-right: 4rem;
+    }
+    .got-it-button {
+        margin-left: 9rem;
+    }
+
 }
