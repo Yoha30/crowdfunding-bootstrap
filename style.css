@@ -1135,7 +1135,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
-@media screen and (min-width: 380px) and (max-width: 414px ) {
+@media screen and (min-width: 380px) and (max-width: 428px ) {
     .main-section {
         background: white;
         width: 18rem;
@@ -1363,46 +1363,46 @@ input[type=number]::-webkit-outer-spin-button {
         border-radius: 15px;
     }
 }
-@media (max-width: 1024px) {
+@media screen and (min-width: 1000px) and (max-width: 1024px) {
     .main-section {
         background: white;
-        width: 43%;
+        width: 55%;
         position: absolute;
-        right: 18rem;
+        right: 14rem;
         top: 13rem;
         border-radius: 15px;
     }
 
     .mastercraft-logo {
         position: absolute;
-        right: 12rem;
-        bottom: 20.5rem;
+        right: 15rem;
+        bottom: 16.5rem;
     }
 
     .analysis-section {
         background: white;
-        width: 43%;
+        width: 55%;
         position: absolute;
-        right: 18rem;
-        top: 36rem;
+        right: 14rem;
+        top: 32.5rem;
         border-radius: 15px;
         padding-bottom: 2rem;
     }
 
     .about-section {
         background: white;
-        width: 43%;
+        width: 55%;
         position: absolute;
-        right: 18rem;
-        top: 50.75rem;
+        right: 14rem;
+        top: 47.5rem;
         border-radius: 15px;
     }
 
     .backthis-project {
         background: white;
-        width: 43%;
+        width: 55%;
         position: absolute;
-        right: 18rem;
+        right: 14rem;
         top: 15rem;
         border-radius: 15px;
     }
@@ -1496,12 +1496,10 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .w-39 {
-        width: 20rem;
+        width: 26rem;
     }
     .backthis-project-sections {
-        width: 23.5rem;
-        display: flex;
-        flex-direction: column;
+        width: 31rem;
     }
     .justify-center {
         display: flex;
